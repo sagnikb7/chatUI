@@ -4,9 +4,9 @@
 }
 
 :root {
-    --bubble-color: #EA526F;
-    --bubble-right-color: #14BDEB;
-    --bubble-text-color: #F7F7FF;
+    --bubble-color: #845EC2;
+    --bubble-right-color: #FF6F91;
+    --bubble-text-color: #FCF8FF;
 }
 
 
@@ -17,12 +17,13 @@
 
 .bubble,
 .bubble-cont {
+    font-size: 0.9rem;
     font-family: 'Open Sans', sans-serif;
     background: var(--bubble-color);
 
-    padding: 8px;
+    padding: 6px;
     margin-bottom: 10px;
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
 
 }
@@ -32,7 +33,7 @@
 }
 
 .bubble-cont {
-    border-radius: 0.8rem 1.6rem 1.6rem 0.8rem;
+    border-radius: 0.4rem 1.6rem 1.6rem 0.8rem;
 }
 
 
@@ -50,12 +51,13 @@
 
 .bubble-right,
 .bubble-right-cont {
+    font-size: 0.9rem;
     font-family: 'Open Sans', sans-serif;
     background: var(--bubble-right-color);
 
-    padding: 8px;
+    padding: 6px;
     margin-bottom: 10px;
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
 
 }
@@ -65,7 +67,7 @@
 }
 
 .bubble-right-cont {
-    border-radius: 1.6rem 0.8rem 0.8rem 1.6rem;
+    border-radius: 1.6rem 0.4rem 0.8rem 1.6rem;
 }
 
 .bubble-right::after {
